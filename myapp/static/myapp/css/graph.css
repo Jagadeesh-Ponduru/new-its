@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+input[type="button" ]
+{
+      width: 20%;
+      min-width:100px;
+    1float: left;
+    border: none;
+    background: silver;
+
+}
+
+svg
+{
+  padding-left:90px;
+
+}
+svg g
+{
+  display: none;
+}
+svg polyline
+{
+  display: none;
+}
+.previousData-view
+{
+  padding-top: 57px;
+}
+.graph .labels.x-labels {
+  text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+  text-anchor: end;
+}
+
+.graph {
+  height: 500px;
+  min-width: 800px;
+  width:80%;
+  background:#a5eab2;
+  padding-top: 12px;
+}
+
+.graph .grid {
+  stroke: #ccc;
+  stroke-dasharray: 0;
+  stroke-width: 1;
+}
+
+.labels {
+  font-size: 13px;
+}
+
+.label-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  fill: black;
+}
+
+.data {
+  fill: red;
+  stroke-width: 1;
+}
+
+.buttons
+{
+  1padding-left: 90px;
+}
